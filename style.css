@@ -1,0 +1,112 @@
+body {
+  background-image: url("javaimg.jpeg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0 30px;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  margin: 30px;
+}
+
+.counter {
+  display: flex;
+  align-items: right;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #ffbd35;
+  text-align: center;
+  display: inline;
+  padding-left: 10px;
+}
+
+.mainboard {
+  display: none;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.cards {
+  border-radius: 25px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 189, 54);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#startButton {
+  position: absolute;
+  color: white;
+  font-size: 8px;
+  margin-left: 625px;
+  padding-top: 70px;
+}
+
+#restartbutton {
+  background: #ffbd35;
+  color: black;
+  margin: auto;
+  width: 20%;
+  height: 60px;
+}
+
+#startGame {
+  background: #ffbd35;
+  color: black;
+  margin: auto;
+  width: 20%;
+  height: 60px;
+}
+
+h6 {
+  color: #ffbd35;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.correctButton,
+.wrongButton {
+  display: none;
+  background: #ffbd35;
+  color: black;
+  margin: auto;
+  width: 20% auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.score {
+  margin: 10px;
+}
+
+.show {
+  display: grid;
+}
+
+.showButtons {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
